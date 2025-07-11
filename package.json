@@ -24,7 +24,7 @@
         "artifacts": "napi artifacts",
         "build": "napi build --platform --release",
         "build:debug": "napi build --platform",
-        "build:dist": "napi build --platform --strip  ../dist/dont-starve-asset-processor",
+        "build:dist": "napi build --platform --strip --release ../dist/dont-starve-asset-processor",
         "prepublishOnly": "napi prepublish -t npm",
         "universal": "napi universal",
         "version": "napi version"
